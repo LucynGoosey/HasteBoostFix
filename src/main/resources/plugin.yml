@@ -4,4 +4,13 @@ main: me.lucyn.hasteboost.HasteBoostFix
 api-version: '1.21'
 prefix: Haste-Boost
 authors: [LucynGoosey]
-description: A complete rewrite of sebastianrich18/Haste-Boost made to use the Spigot API instead of the Paper API.
+description: Boost Haste 2 Effect to allow for insta mining deepslate
+commands:
+  hb:
+    description: Main command for HasteBoost
+    usage: /hb [mute | unmute | showconfig | reload]
+    aliases:
+      - hasteboost
+permissions:
+  hb:
+    default: op
