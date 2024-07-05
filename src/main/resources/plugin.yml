@@ -1,0 +1,7 @@
+name: HasteBoostFix
+version: '${project.version}'
+main: me.lucyn.hasteboost.HasteBoostFix
+api-version: '1.21'
+prefix: Haste-Boost
+authors: [LucynGoosey]
+description: A complete rewrite of sebastianrich18/Haste-Boost made to use the Spigot API instead of the Paper API.
