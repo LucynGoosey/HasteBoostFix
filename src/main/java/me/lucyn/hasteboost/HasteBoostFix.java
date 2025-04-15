@@ -16,7 +16,16 @@ import org.jetbrains.annotations.NotNull;
 
 import java.util.logging.Logger;
 
+/*
+This plugin was inspired by Sebastian Richel's Haste Boost: https://github.com/sebastianrich18/Haste-Boost
+
+Sebastian's version uses the Paper API, which at the time of creation (and the time of this commit, almost a year later) did not have
+a stable release for the current version.
+ */
+
 public final class HasteBoostFix extends JavaPlugin implements Listener {
+
+    // TODO: Add optional feature to automatically add rotating blocks to the list on version update
 
     private final Material inHand = Material.NETHERITE_PICKAXE;
     private final Logger log = Bukkit.getLogger();
@@ -25,7 +34,7 @@ public final class HasteBoostFix extends JavaPlugin implements Listener {
     @Override
     public void onEnable() {
         getServer().getPluginManager().registerEvents(this, this);
-        log.info("Haste-Boost-Fix is now enabled!");
+        log.info("Haste-Boost-Plus is now enabled!");
         saveDefaultConfig();
 
     }
