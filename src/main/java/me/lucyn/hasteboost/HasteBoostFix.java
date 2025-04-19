@@ -16,12 +16,9 @@ import org.jetbrains.annotations.NotNull;
 
 import java.util.logging.Logger;
 
-/*
-This plugin was inspired by Sebastian Richel's Haste Boost: https://github.com/sebastianrich18/Haste-Boost
 
-Sebastian's version uses the Paper API, which at the time of creation (and the time of this commit, almost a year later) did not have
-a stable release for the current version.
- */
+//This plugin was inspired by Sebastian Richel's Haste Boost: https://github.com/sebastianrich18/Haste-Boost
+
 
 public final class HasteBoostFix extends JavaPlugin implements Listener {
 
@@ -32,11 +29,10 @@ public final class HasteBoostFix extends JavaPlugin implements Listener {
     @Override
     public void onEnable() {
         getServer().getPluginManager().registerEvents(this, this);
-        log.info("Haste-Boost-Plus is now enabled!");
+        log.info("Haste-Boost is now enabled!");
         saveDefaultConfig();
 
     }
-
 
     //entire onCommand method copied from original project. Fixed typos. removed isMuted completely.
     @Override
