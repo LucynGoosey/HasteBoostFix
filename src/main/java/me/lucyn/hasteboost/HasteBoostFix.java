@@ -25,8 +25,6 @@ a stable release for the current version.
 
 public final class HasteBoostFix extends JavaPlugin implements Listener {
 
-    // TODO: Add optional feature to automatically add rotating blocks to the list on version update
-
     private final Material inHand = Material.NETHERITE_PICKAXE;
     private final Logger log = Bukkit.getLogger();
     private FileConfiguration config = this.getConfig();
