@@ -34,7 +34,7 @@ public final class HasteBoostFix extends JavaPlugin implements Listener {
 
     }
 
-    //entire onCommand method copied from original project. Fixed typos. removed isMuted completely.
+    //entire onCommand method copied from original Haste-Boost. Fixed typos. removed isMuted completely.
     @Override
     public boolean onCommand(@NotNull CommandSender sender, @NotNull Command command, @NotNull String label, @NotNull String[] args) {
         if (command.getName().equalsIgnoreCase("hb")) {
